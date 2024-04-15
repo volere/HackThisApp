@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a deliberatly vulnerable [Next.js](https://nextjs.org/) App. We've used worst practices to demonstrate bad coding patterns and allow you to exploit an app in a safe enviroment.
+
+
 
 ## Getting Started
 
-First, run the development server:
+The easist way to start up a database is to follow instructions [here](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
 
 ```bash
 npm run dev
@@ -18,7 +20,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 

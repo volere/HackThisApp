@@ -1,8 +1,19 @@
 'use client';
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { ChangeEvent } from 'react';
+import { IconType } from 'react-icons';
 
-export default function Search({ placeholder }: { placeholder: string }) {
+
+interface TextInputProps {
+    placeholder: string;
+    onChange: (event: ChangeEvent<HTMLInputElement>) => void; // More specific type instead of 'any'
+    defaultValue?: string; // This can be undefined, hence it is marked as optional
+    Icon: IconType; // Specify the type for Icon assuming you are using react-icons
+}
+
+
+export const TextInput: React.FC<TextInputProps> = ({ placeholder, onChange, defaultValue, Icon }) => {
     function handleSearch(term: string) {
         console.log(term);
     }
