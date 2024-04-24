@@ -22,8 +22,8 @@ const links = [
   //{ name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
   { name: 'XSS', href: '/dashboard/xss', icon: UserGroupIcon },
   { name: 'REGEXi', href: '/dashboard/regex', icon: UserGroupIcon },
-  { name: 'SQLi', href: '/dashboard/sqli', icon: UserGroupIcon },
-  { name: 'Race COndition', href: '/dashboard/race', icon: UserGroupIcon },
+  // { name: 'SQLi', href: '/dashboard/sqli', icon: UserGroupIcon },
+  { name: 'Race Condition', href: '/dashboard/race', icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
